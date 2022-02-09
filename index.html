@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="mt-4">📚BookList App📚</h1>
+    <form id="form">
+        <div class="label-input-wrapper">
+            <label for="title">Title:</label>
+            <input type="text" id="inputTitle" class="input" required>
+            </div>
+
+        <div class="label-input-wrapper">
+            <label for="Author">Author:</label>
+            <input type="text" id="inputAuthor" class="input" required>
+        </div>
+
+        <div class="label-input-wrapper">
+            <label for="title">Pages:</label>
+            <input type="number" id="inputPages" class="input" required>
+    </div>
+        
+        
+      
+        <button type="submit" id="addBookButton" class="btn btn-lg btn-outline-primary">SUBMIT</button>
+    </form>
+   
+    <table id="table" class="table">
+        <th>Title</th>
+        <th>Author</th>
+        <th>Pages</th>
+        <th>Read</th>
+        <th></th>
+        <tr>
+            <!-- 
+                Sample Book to see on the page:
+                <td>LOTR</td>
+            <td>Tolkien</td>
+            <td>300</td>
+            <td><input type="checkbox"></td>
+            <td><button id="removeButton" class="remove_button">Remove</button></td>
+             -->
+        </tr>
+        
+    </table>
+   
+
+
+    <script src="script.js"></script>
+</body>
+</html>
